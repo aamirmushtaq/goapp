@@ -26,7 +26,7 @@ db, err = sql.Open("mysql", "myUsername:myPassword@/hcl")
 ```
 
 
-Simple Binary run(Preferred):
+### Simple Binary run(Preferred):
 If you want to run the simple binary file named : hcl_test, then it assumes mysql has root user as login and no password with hcl database dump restored
 I would really recommend you to use the simple binary run for this since it has all deps compiled within the binary. 
 command: ./hcl_test
